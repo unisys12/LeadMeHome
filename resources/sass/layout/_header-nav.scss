@@ -1,0 +1,13 @@
+.page-header {
+    grid-template-columns: 2fr 4fr;
+    align-items: center;
+
+    .links {
+        display: flex;
+        justify-content: space-between;
+        a {
+            text-decoration: none;
+            font-family: "MyiadPro-BoldCond", Arial, Helvetica, sans-serif;
+        }
+    }
+}

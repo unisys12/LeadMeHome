@@ -1,8 +1,14 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+// @import url("https://fonts.googleapis.com/css?family=Nunito");
 
-// Variables
-@import 'variables';
+// @import url("../../public/fonts/MyriadPro-BoldCond.otf");
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+@font-face {
+    font-family: "MyriadPro";
+    src: url("../fonts/MyriadPro-BoldCond.otf") format("opentype");
+}
+
+@import "variables";
+
+@import "layout/grid";
+@import "layout/header-nav";
