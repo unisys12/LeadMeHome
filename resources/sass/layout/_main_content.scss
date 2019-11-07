@@ -1,0 +1,64 @@
+main {
+    // background-color: rgba($color: $dark-blue, $alpha: 0.3);
+    background-color: rgb(234, 241, 241);
+}
+
+.logo {
+    margin: 0;
+}
+
+.landing {
+    grid-template-columns: auto 1fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+
+    h2 {
+        font-family: "Montserrat", Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        padding-bottom: 1em;
+        opacity: 0.8;
+    }
+
+    a {
+        text-decoration: none;
+        font-family: "Roboto", Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        color: $lightest-blue;
+        background-color: $darkest-blue;
+        padding: 1em;
+        border-radius: 0.5em;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    a:hover {
+        opacity: 0.8;
+        color: #cccccc;
+    }
+}
+
+// .boxes {
+//     grid-template-columns: 1fr 1fr;
+//     grid-gap: 2rem;
+// }
+
+// .box {
+//     background-image: url("../../../storage/app/public/puppy_test.jpeg");
+//     p {
+//         font-family: "Roboto", Arial, Helvetica, sans-serif;
+//         font-weight: 400;
+//     }
+
+//     h3 {
+//         font-family: "Montserrat", Arial, Helvetica, sans-serif;
+//         font-weight: 300;
+//         opacity: 0.5;
+//         transition: opacity 50ms ease-in-out;
+//     }
+// }
+
+// .box:hover {
+//     h3 {
+//         opacity: 0.9;
+//     }
+// }

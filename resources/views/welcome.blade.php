@@ -5,10 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
         <!-- Styles -->
         <link rel="stylesheet" href="css/app.css">
     </head>
@@ -28,10 +24,32 @@
                 <a href="https://github.com/laravel/laravel">GitHub</a> --}}
             </nav>
         </header>
-        <main class="container">
+        <main class="container landing">
             <div class="logo">
-                <img src="{{ asset('storage/LeadMeHome_Logo_Icon.png') }}" alt="logo" width="90px" height="110px">
+                <img src="{{ asset('storage/LeadMeHome_Logo_Icon.png') }}" alt="logo" height="500vh">
             </div>
+            <div class="callout">
+                <h2>For Luna</h2>
+                <a href="#">Adopt Your Next Pet!</a>
+            </div>
+            {{-- <div class="container boxes">
+                <div class="box">
+                    <h3>Section Callout</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, corporis magnam natus repellat iure magni cum adipisci laborum atque, quisquam ipsam deleniti ex omnis fugiat vel voluptate harum, eligendi et.</p>
+                </div>
+                <div class="box">
+                    <h3>Section Callout</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, corporis magnam natus repellat iure magni cum adipisci laborum atque, quisquam ipsam deleniti ex omnis fugiat vel voluptate harum, eligendi et.</p>
+                </div>
+                <div class="box">
+                    <h3>Section Callout</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, corporis magnam natus repellat iure magni cum adipisci laborum atque, quisquam ipsam deleniti ex omnis fugiat vel voluptate harum, eligendi et.</p>
+                </div>
+                <div class="box">
+                    <h3>Section Callout</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, corporis magnam natus repellat iure magni cum adipisci laborum atque, quisquam ipsam deleniti ex omnis fugiat vel voluptate harum, eligendi et.</p>
+                </div>
+            </div> --}}
         </main>       
     </body>
 </html>

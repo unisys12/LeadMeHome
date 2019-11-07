@@ -1,4 +1,4 @@
-@font-face {
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:100,300,400);@font-face {
   font-family: "MyriadPro";
   src: url(/fonts/MyriadPro-BoldCond.otf?3ea81583b29f67fc449bfd818c892747) format("opentype");
 }
@@ -6,6 +6,7 @@
 .container {
   display: grid;
   gap: 1em;
+  margin: 0 auto;
 }
 
 .page-header {
@@ -29,5 +30,49 @@
 .page-header .links a {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  background-color: #eaf1f1;
+}
+
+.logo {
+  margin: 0;
+}
+
+.landing {
+  grid-template-columns: auto 1fr;
+  justify-items: center;
+  -webkit-box-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.landing h2 {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  padding-bottom: 1em;
+  opacity: 0.8;
+}
+
+.landing a {
+  text-decoration: none;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  color: #bfd9ed;
+  background-color: #1c3249;
+  padding: 1em;
+  border-radius: 0.5em;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.landing a:hover {
+  opacity: 0.8;
+  color: #cccccc;
+}
+
+* {
+  box-sizing: border-box;
 }
 

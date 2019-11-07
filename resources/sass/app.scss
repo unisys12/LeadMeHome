@@ -1,14 +1,19 @@
 // Fonts
-// @import url("https://fonts.googleapis.com/css?family=Nunito");
-
-// @import url("../../public/fonts/MyriadPro-BoldCond.otf");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:100,300,400");
 
 @font-face {
     font-family: "MyriadPro";
     src: url("../fonts/MyriadPro-BoldCond.otf") format("opentype");
 }
 
-@import "variables";
+// Variables (colors mainly)
+@import "./variables";
 
+// Layout
 @import "layout/grid";
 @import "layout/header-nav";
+@import "layout/main_content";
+
+* {
+    box-sizing: border-box;
+}
