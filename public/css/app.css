@@ -15,7 +15,7 @@
           align-items: center;
 }
 
-.page-header .title > h1 {
+.page-header .title {
   font-family: "MyriadPro", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
 }
@@ -33,7 +33,9 @@
 }
 
 main {
-  background-color: #eaf1f1;
+  background: #020024;
+  background: -webkit-gradient(linear, left bottom, left top, from(#020024), to(#00d4ff));
+  background: linear-gradient(0deg, #020024 0%, #00d4ff 100%);
 }
 
 .logo {
@@ -70,6 +72,50 @@ main {
 .landing a:hover {
   opacity: 0.8;
   color: #cccccc;
+}
+
+main {
+  background: #020024;
+  background: -webkit-gradient(linear, left bottom, left top, from(#020024), to(#00d4ff));
+  background: linear-gradient(0deg, #020024 0%, #00d4ff 100%);
+}
+
+.card {
+  display: grid;
+  -webkit-box-pack: center;
+          justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #eeeeee;
+}
+
+.card a {
+  text-decoration: none;
+  color: #eeeeee;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+.card a:hover {
+  color: #dddddd;
+}
+
+.card-header {
+  margin-left: 0.75em;
+}
+
+.row {
+  padding: 0.5em 1em;
+}
+
+.btn {
+  padding: 0.5em 2em;
+  color: #eeeeee;
+  border: 0;
+  border-radius: 0.25em;
+}
+
+.btn-login {
+  background-color: green;
 }
 
 * {

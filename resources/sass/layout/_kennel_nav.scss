@@ -1,0 +1,44 @@
+main {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        0deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(0, 212, 255, 1) 100%
+    );
+}
+
+.card {
+    display: grid;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eeeeee;
+
+    a {
+        text-decoration: none;
+        color: #eeeeee;
+        transition: color 0.3s ease-in-out;
+    }
+
+    a:hover {
+        color: #dddddd;
+    }
+}
+
+.card-header {
+    margin-left: 0.75em;
+}
+
+.row {
+    padding: 0.5em 1em;
+}
+
+.btn {
+    padding: 0.5em 2em;
+    color: #eeeeee;
+    border: 0;
+    border-radius: 0.25em;
+}
+
+.btn-login {
+    background-color: green;
+}
