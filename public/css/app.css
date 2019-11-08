@@ -118,6 +118,12 @@ main {
   background-color: green;
 }
 
+.invalid-feedback {
+  display: block;
+  background-color: red;
+  margin-top: 0.25em;
+}
+
 * {
   box-sizing: border-box;
 }
