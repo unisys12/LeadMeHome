@@ -43,8 +43,16 @@ main {
     background-color: green;
 }
 
+input:focus {
+    outline: none;
+}
+
 .invalid-feedback {
     display: block;
     background-color: red;
     margin-top: 0.25em;
+}
+
+.is-invalid {
+    color: rgba(255, 0, 0, 0.8);
 }
