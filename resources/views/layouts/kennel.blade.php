@@ -30,7 +30,7 @@
                 <a href="#">Breeds</a>
                 <a href="#">Transports</a>
                 <span> | </span>
-                @if (Route::has('login'))
+                @if (Auth::check())
                     <div class="user-info">
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                             {{ Auth::user()->name }} <span class="caret"></span>
