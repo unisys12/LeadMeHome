@@ -60,6 +60,7 @@
         <main class="container">
             @yield('content')
         </main>
+        @include('partials.site_footer')
     </div>
 </body>
 </html>

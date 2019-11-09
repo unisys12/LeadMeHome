@@ -46,6 +46,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, corporis magnam natus repellat iure magni cum adipisci laborum atque, quisquam ipsam deleniti ex omnis fugiat vel voluptate harum, eligendi et.</p>
                 </div>
             </div> --}}
-        </main>       
+        </main>
+        @include('partials.site_footer')
     </body>
 </html>
