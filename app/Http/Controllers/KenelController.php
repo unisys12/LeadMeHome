@@ -23,6 +23,6 @@ class KenelController extends Controller
      */
     public function index()
     {
-        return view('kenel');
+        return view('kennel.index');
     }
 }
